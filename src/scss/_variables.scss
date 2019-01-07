@@ -1,2 +1,26 @@
-$primary: #FF00BB;
+$primary: #F20;
+$secondary: invert($primary, 75%);
 
+
+/**
+* Variables used in _functions.scss
+ */
+
+// Theme color bg opacities
+$opacities: (
+        25,
+        50,
+        75,
+);
+
+// Responsive font sizes
+$fontSizes: (
+        1: .75rem,
+        2: 1rem,
+        3: 1.25rem,
+        4: 1.5rem,
+        5: 1.75rem
+);
+
+// Responsive z-indexes
+$zIndexes: (1, 2, 3, 4, 5);

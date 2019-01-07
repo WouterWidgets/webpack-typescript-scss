@@ -9,13 +9,13 @@ const me: User = {
     age: 32,
 };
 
-// ES6 string interpolation
-console.log(`Hi ${me.name}!`);
-
 // Lodash
 _.each(['apple', 'banana', 'orange'], (fruit: string) => {
     console.log('Fruit:', fruit);
 });
+
+// ES6 string interpolation
+console.log(`Hi ${me.name}!`);
 
 // jQuery
 $('#foobar').html(`Hi ${me.name}!`);
