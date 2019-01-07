@@ -1,6 +1,7 @@
 import { User } from './models/user';
 import * as _ from 'lodash';
 import * as $ from 'jquery'
+import 'bootstrap';
 
 // Typescript class
 const me: User = {
@@ -13,7 +14,7 @@ console.log(`Hi ${me.name}!`);
 
 // Lodash
 _.each(['apple', 'banana', 'orange'], (fruit: string) => {
-    console.log('Fruit', fruit);
+    console.log('Fruit:', fruit);
 });
 
 // jQuery
