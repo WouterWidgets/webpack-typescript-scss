@@ -1,0 +1,8 @@
+.idea
+node_modules/
+
+www/index.html
+www/**.map
+www/css/*
+www/js/*
+www/fonts/*
