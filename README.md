@@ -7,6 +7,6 @@ It also copies `src/index.html` to `www/index.html`, but you can remove that par
 - NodeJS / NPM
 
 ## Installation
-Run `npm i`
-Run `npx webpack` or `npx webpack --watch`
-Serve `www/` using a web server (e.g. `php -S localhost:8000 -t www/`)
+- Run `npm i`
+- Run `npx webpack` or `npx webpack --watch`
+- Serve `www/` using a web server (e.g. `php -S localhost:8000 -t www/`)
